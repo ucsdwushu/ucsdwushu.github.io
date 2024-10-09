@@ -2,83 +2,82 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family: "Aktiv Grotesk VF";
-  src: url("../fonts/AktivGroteskVF_Trial_WghtWdthItal.woff2");
+    font-family: "Aktiv Grotesk VF";
+    src: url("../fonts/AktivGroteskVF_Trial_WghtWdthItal.woff2");
 }
 
 html {
-  font-family: "Aktiv Grotesk VF", sans-serif;
-  margin: 0;
-  background-image: url("../images/backgroundimg.png");
+    font-family: "Aktiv Grotesk VF", sans-serif;
+    margin: 0;
+    background-image: url("../images/backgroundimg.png");
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 /*---- TOP BAR ----*/
 .topbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 1%;
-  background: cyan;
-  z-index: 6;
+    position:fixed;
+    top:0;left:0;
+    width:100%;
+    height:1%;
+    background:cyan;
+    z-index:6;
 }
 
 .bg-tint {
-  background-color: rgba(0, 0, 0, 0.8) !important;
-  background-blend-mode: multiply !important;
-  transition: all 0.1s !important;
+    background-color: rgba(0, 0, 0, .80) !important;
+    background-blend-mode: multiply !important;
+    transition: all 0.1s !important;
 }
 
 .slight-bg-tint {
-  background-color: rgba(0, 0, 0, 0.65) !important;
-  background-blend-mode: multiply !important;
-  transition: all 0.1s !important;
+    background-color: rgba(0, 0, 0, .65) !important;
+    background-blend-mode: multiply !important;
+    transition: all 0.1s !important;
 }
 
 .tiny-bg-tint {
-  background-color: rgba(0, 0, 0, 0.1) !important;
-  background-blend-mode: multiply !important;
-  transition: all 0.1s !important;
+    background-color: rgba(0, 0, 0, .10) !important;
+    background-blend-mode: multiply !important;
+    transition: all 0.1s !important;
 }
 
 .purple {
-  color: purple;
+    color:purple;
 }
 
 .cyan {
-  color: cyan;
+    color:cyan;
 }
 
 .navlist {
-  font-weight: 150;
-  color: cyan;
-  margin-top: 1;
-  font-size: x-large;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+    font-weight:150;
+    color:cyan;
+    margin-top: 1;
+    font-size:x-large;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 .navlist2 {
-  font-weight: 150;
-  color: lightgray;
-  margin-top: 1;
-  font-size: small;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  transition-duration: 500ms;
+    font-weight:150;
+    color:lightgray;
+    margin-top: 1;
+    font-size:small;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition-duration:500ms;
 }
 .navlist2:hover {
-  color: white;
+    color:white;
 }
 .hoverlink {
-  transition-duration: 500ms;
-  color: cyan;
+    transition-duration: 500ms;
+    color: cyan;
 }
 .hoverlink:hover {
-  color: aliceblue;
+color:aliceblue;
 }
 
 /*
@@ -89,8 +88,9 @@ body {
 */
 
 a#hero:hover .tooltip {
-  display: block;
+    display: block;
 }
+
 
 /*
 .tooltip {
@@ -115,5 +115,5 @@ a#hero:hover .tooltip {
 */
 
 h1 {
-  vertical-align: super;
+    vertical-align: super;
 }

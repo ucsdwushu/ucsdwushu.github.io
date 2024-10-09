@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
-import BackgroundImage from "gatsby-background-image"
+import BackgroundImage from 'gatsby-background-image'
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -25,21 +25,14 @@ const IndexPage = () => {
         <div className="border-solid lg:border-l flex items-stretch flex-col w-full max-w-full">
           <BackgroundImage
             className="p-8 lg:px-16 lg:py-12 flex-grow flex text-xl lg:text-4xl lg:pr-64 z-10 tiny-bg-tint"
-            fluid={data.gen.childImageSharp.fluid}
-          >
-            <h1
-              className="mt-auto"
-              style={{ fontVariationSettings: "'wdth' 105" }}
-            >
+            fluid={data.gen.childImageSharp.fluid}>
+            <h1 className="mt-auto" style={{ fontVariationSettings: "'wdth' 105" }}>
               For all inqueries:
               <br />
               <a
                 className="border-b border-transparent hover:border-gray-100"
                 style={{ fontVariationSettings: `'wdth' 125, 'wght' 700` }}
-                href="mailto:wushu@ucsd.edu"
-              >
-                wushu@ucsd.edu
-              </a>
+                href="mailto:wushu@ucsd.edu">wushu@ucsd.edu</a>
             </h1>
           </BackgroundImage>
         </div>

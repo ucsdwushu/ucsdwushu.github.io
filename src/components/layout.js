@@ -13,6 +13,7 @@ import Nav from "./nav"
 import "./layout.css"
 
 const Layout = ({ children }) => {
+
   return (
     <>
       <div className="min-h-screen lg:flex">

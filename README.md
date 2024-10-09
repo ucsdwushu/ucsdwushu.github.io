@@ -19,8 +19,7 @@
     cd my-default-starter/
     gatsby develop
     ```
-
-    If you get "gatsby : File C:\...\gatsby.ps1 cannot be loaded because running scripts is disabled on this system.", open an admin powershell and run Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+    If you get "gatsby : File C:\...\gatsby.ps1 cannot be loaded because running scripts is disabled on this system.", open an admin powershell and run Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted 
 
 1.  **Open the source code and start editing!**
 
