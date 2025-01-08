@@ -23,17 +23,17 @@ const IndexPage = () => {
       }
       jessica: file(relativePath: { eq: "images/cabinet/jessica.jpg" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1.1)
         }
       }
       jerwey: file(relativePath: { eq: "images/cabinet/jerwey.jpg" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1.1)
         }
       }
       james: file(relativePath: { eq: "images/cabinet/james.JPG" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1.1)
         }
       }
       bobby: file(relativePath: { eq: "images/cabinet/bobby.jpg" }) {
@@ -53,7 +53,7 @@ const IndexPage = () => {
       }
       zhoujie: file(relativePath: { eq: "images/cabinet/zhoujie.jpg" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1.1)
         }
       }
       serena: file(relativePath: { eq: "images/cabinet/serena.jpeg" }) {
@@ -61,9 +61,9 @@ const IndexPage = () => {
           gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1.5)
         }
       }
-      novak: file(relativePath: { eq: "images/cabinet/novak.jpg" }) {
+      novak: file(relativePath: { eq: "images/cabinet/novak.JPG" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1.5)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1.1)
         }
       }
               alex: file(relativePath: { eq: "images/cabinet/alex.jpg" }) {
@@ -118,7 +118,7 @@ const IndexPage = () => {
             name="Jessica Ju"
             desc="Jessica is a third year Linguistics (Speech and Language Sciences) major. In her five years of wushu experience she has practiced various forms including straight sword, fan, and emei piercers. She is also passionate about learning Mandarin and enjoys watching Chinese dramas and listening to Chinese music. As treasurer, she manages class payments, organizes fundraisers, and handles funding and reimbursements."
             img={data.jessica.childImageSharp.gatsbyImageData} />
-          {/* dw we will never let jeremy retire
+          {/* don't delete this, we will never let jeremy retire
           <Member
             title="Demo Coordinator"
             name="Jeremy Lei"
@@ -137,9 +137,9 @@ const IndexPage = () => {
             desc="Alex Zhang is a fourth year ICAM major and CSE minor. He started wushu in Beijing, China as a kid (elementary school), but stopped practicing regularly in high school. He then started training for competitive wushu in college. Outside of wushu, he plays a lot of video games - Mostly fps games and occasionally plays cs casually."
             img={data.alex.childImageSharp.gatsbyImageData} />
           <Member
-            title="External"
-            name="Vivian Yu"
-            desc="vivian is a 3rd year math-cs major who is allergic to capital letters and going to class. she is awake for approximately no hours a day and can often be seen napping at practice. her favorite classroom to sleep in is the back row of warren lecture hall because you can lean your head against the wall there. as externals she makes the graphics and videos seen on ucsd wushu’s social media accounts when her wrist isn’t in a cast."
+            title="external"
+            name="vivian yu"
+            desc="vivian is a 3rd year math-cs major who is allergic to capital letters and going to class. she is awake for approximately no hours a day and can often be seen napping at practice. her favorite classroom to sleep in is warren lecture hall in the back row because you can lean your head against the wall there and let the lecture lull you to sleep. as externals she creates the graphics and videos seen on ucsd wushu’s social media accounts and maintains this website when her wrist isn’t in a cast."
             img={data.vivian.childImageSharp.gatsbyImageData} />
           <Member
             title="Secretary"
@@ -149,7 +149,7 @@ const IndexPage = () => {
             <Member
             title="Historian"
             name="Novak Tatarevic"
-            desc=""
+            desc="Novak is a second year Anthropology Major with an Archaeology concentration. In his role as historian he is mostly concerned with farming raw material (photos and videos) for the UCSD Wushu content machine. As for martial arts, he has had experience in more traditional Chinese martial arts (Shaolin Kung Fu) and has started practicing contemporary styles since joining the club. Outside of all that, he enjoys a good adventure (aka: lots of walking), nature, cooking, writing, and videogames. "
             img={data.novak.childImageSharp.gatsbyImageData}/>
           {/*<Member
             title="Freeloader"
