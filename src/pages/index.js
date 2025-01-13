@@ -27,17 +27,6 @@ class IndexPage extends Component {
     return (
       <Layout>
         <SEO title="Home" />
-        {/*<a href="https://www.youtube.com/watch?v=cqVRAgQnIjY" id="hero" className="px-8 lg:px-16 block pt-16 min-h-screen flex pb-20 lg:pl-xs">
-          <span className="tooltip hidden absolute bg-black text-white border-solid px-3 pt-2 pb-1 overflow-hidden whitespace-no-wrap" style={{ borderWidth: "1px", zIndex: "1000" }}>Click to watch our 2019 showreel</span>
-          <video autoPlay muted loop className="absolute left-0 bottom-0 min-w-full min-h-full z-0" style={{ objectFit: "cover" }}>
-            <source src={WushuBg} type="video/mp4" />
-          </video>
-          <h1 className="text-3xl lg:text-4xl mt-auto lg:pr-64 z-10" style={{ fontVariationSettings: "'wdth' 105" }}>
-            We swing swords and do backflips for fun. We are performers and competitors. And sometimes, we sell egg rolls.
-            <br />
-            This is<span style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}> UCSD Wushu.</span>
-          </h1>
-        </a>*/}
         <span className="px-8 lg:px-16 block pt-16 min-h-screen flex pb-20 lg:pl-xs">
           <video autoPlay muted loop className="absolute left-0 bottom-0 min-w-full min-h-full z-0" style={{ objectFit: "cover" }}>
             <source src={WushuBg} type="video/mp4" />

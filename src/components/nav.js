@@ -64,10 +64,11 @@ const Nav = () => {
                 <li className="mt-1"><a className="navlist2" href="https://www.instagram.com/ucsdwushu/">Instagram</a></li>
                 <li className="mt-1"><a className="navlist2">Facebook</a></li>
                 <li className="mt-1"><a className="navlist2" href="https://www.youtube.com/channel/UCJJOaO7Kk3-u-qHxsRbrFuw">YouTube</a></li>
+                <li className="mt-1"><a className="navlist2" href="https://forms.gle/x2QLFT2RTkWfoLcy7">Performance Request Form</a></li>
               </ul>
 
               <p className="text-xs opacity-50 text-gray-400">© {new Date().getFullYear()} Wushu Club<br></br>@ UC San Diego</p>
-              {/*<p><a className="text-xs opacity-50 text-gray-400 transition duration-100 hover:opacity-100" href="https://cao.sh">Designed by David Cao</a></p>*/}
+              <p><a className="text-xs opacity-50 text-gray-400 transition duration-100 hover:opacity-100" href="https://cao.sh">Designed by David Cao</a></p>
             </div>
           </footer>
 
