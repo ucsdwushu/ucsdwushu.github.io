@@ -48,10 +48,10 @@ class IndexPage extends Component {
               </h1>
                 <p className="text-lg">UCSD practices contemporary Chinese Wushu, an exhibition martial art developed after 1949 in the People’s Republic of China based on traditional Chinese martial arts. Wushu performances and competition are based on routines, called forms (taolu), in various events representing different styles and types of weapons used in traditional Chinese martial arts. In addition, there is also sparring (sanda), although the club does not practice sparring.</p>
               </div>
-              <GatsbyImage className="lg:w-1/2" alt="Our pres doin cool shit :)" image={data.wushu.childImageSharp.gatsbyImageData} />
+              <GatsbyImage className="lg:w-1/2" alt="12 people in a Wushu practice room lying down spread-eagled" image={data.wushu.childImageSharp.gatsbyImageData} />
             </div>
             <div className="border-solid border-b bg-black w-full flex flex-col lg:flex-row">
-              <GatsbyImage className="lg:w-1/2" alt="Our pres doin cool shit :)" image={data.wat.childImageSharp.gatsbyImageData} />
+              <GatsbyImage className="lg:w-1/2" alt="12 people in a Wushu practice room lying down spread-eagled" image={data.wat.childImageSharp.gatsbyImageData} />
               <div className="py-16 px-8 lg:px-16 lg:w-1/2 bg-teal-400 text-black">
                 <h1 className="mb-4 text-5xl leading-tight" style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}>
                   <span className="align-text-top text-xl">02</span> I'm a beginner; can I join?

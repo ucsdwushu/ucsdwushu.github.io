@@ -18,7 +18,7 @@ const Member = ({ title, name, desc, img, useSmallFont }) => {
         </h1>
         <p className={fontSize}>{desc}</p>
       </div>
-      <GatsbyImage className="" alt="Socializing" image={img} />
+      <GatsbyImage className="" alt="Wushu Cabinet member's portrait" image={img} />
     </div>
   )
 }
