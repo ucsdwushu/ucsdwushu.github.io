@@ -43,6 +43,7 @@ const IndexPage = () => {
               Demos
             </h1>
             <h3 className="text-lg lg:text-xl text-gray-500" >Last updated <strong>July 30, 2024</strong></h3>
+            <h3 className="text-lg lg:text-xl text-cyan-500 hover:underline" ><a href="https://forms.gle/x2QLFT2RTkWfoLcy7">Performance request form</a></h3>
           </div>
           <LatestDemo 
           name="CSHP Culture Fusion"
