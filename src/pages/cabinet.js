@@ -46,6 +46,11 @@ const IndexPage = () => {
           gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1.5)
         }
       }
+      jess: file(relativePath: { eq: "images/cabinet/jess.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 0.75)
+        }
+      }
       nathan: file(relativePath: { eq: "images/cabinet/nathan.jpeg" }) {
         childImageSharp {
           gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1.5)
@@ -125,17 +130,19 @@ const IndexPage = () => {
             desc={`Jeremy “Big J” is a fourth year Math-CS major at seventh college. After his return to wushu, he has lost all sense of shame (though I’m not sure he had any to begin with) and can frequently be found doing wushu in the wild (especially hammerfists). When not performing this strange ritual, he can usually be found downing Tapex’s fried chicken and milk tea or procrastinating on his homework.`}
             img={data.jeremy.childImageSharp.gatsbyImageData} /> */}
 
-          {/*Right Column*/}
-          <Member
-            title="President"
-            name="Zhoujie Yu"
-            desc="Zhoujie Y. is a senior in the Nanoengineering department. She has a huge sweet tooth despite not liking things that are too sweet and also has an eternal attraction to bread/pastries. Aside from wushu, she has too many hobbies for the amount of time that she is free. You can usually find her either in class, in the library, or wandering out and about for no particular reason. As a certified senior, she presides over the club and maintains its peace and prosperity."
-            img={data.zhoujie.childImageSharp.gatsbyImageData} />
           <Member
             title="Coach"
             name="Alex Zhang"
             desc="Alex Zhang is a fourth year ICAM major and CSE minor. He started wushu in Beijing, China as a kid (elementary school), but stopped practicing regularly in high school. He then started training for competitive wushu in college. Outside of wushu, he plays a lot of video games - Mostly fps games and occasionally plays cs casually."
             img={data.alex.childImageSharp.gatsbyImageData} />
+
+{/*Right Column*/}
+          <Member
+            title="President"
+            name="Zhoujie Yu"
+            desc="Zhoujie Y. is a senior in the Nanoengineering department. She has a huge sweet tooth despite not liking things that are too sweet and also has an eternal attraction to bread/pastries. Aside from wushu, she has too many hobbies for the amount of time that she is free. You can usually find her either in class, in the library, or wandering out and about for no particular reason. As a certified senior, she presides over the club and maintains its peace and prosperity."
+            img={data.zhoujie.childImageSharp.gatsbyImageData} />
+
           <Member
             title="external"
             name="vivian yu"
@@ -156,6 +163,11 @@ const IndexPage = () => {
             name="Bobby Reilly"
             desc="Bobby is occasionally at practice - not to do anything productive, just to let his anger out on children."
             img={data.bobby.childImageSharp.gatsbyImageData} />*/}
+              <Member
+            title="Coach"
+            name="Jessica Tuey"
+            desc={"Jess is a third-year Kinesiology (pre-PT) major at San Diego State. She specializes mostly in traditional kungfu and some changquan, and is a big miaodao enthusiast. Outside of wushu, she is a gym rat who is down for pretty much any and all side quests. She aspires to bench at least 135lbs and be a big back with an even bigger back. Whether you want advice, or a workout plan, or just need an adventure buddy, please don't hesitate to reach out!"}
+            img={data.jess.childImageSharp.gatsbyImageData} />
           
         </BackgroundImage>
     </Layout>
