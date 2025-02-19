@@ -53,9 +53,9 @@ const IndexPage = () => {
           
           <div className="px-8 lg:px-16 py-16">
             <p className="text-lg max-w-3xl">
-            <br></br><br></br>Our classes feature intensive training for individuals of all skill levels. These practices feature technique drills, advanced technique training (e.g. jumps), and form tutoring. 
+            <br></br><br></br>Our classes feature training for individuals of all skill levels. These practices feature technique drills, advanced technique training (e.g. jumps), and form tutoring. 
             <br></br><br></br>To register for classes, please join our <a className="cyan" href="https://discord.com/invite/F6gSrcG">Discord</a>
-            <br></br> <br></br>Class locations may change throughout the quarter. Please keep an eye on Discord for updates.
+            <br></br> <br></br>Class locations are tentative and may change throughout the quarter. Please check Discord for updates before heading to class.
             </p>
             <p className="text-lg max-w-3xl">
               
@@ -85,7 +85,7 @@ const IndexPage = () => {
                             {/*friday class*/}
               <div className="border-solid py-6 pl-6 pr-8" style={{ borderWidth: "1px" }}>
                 <h1 className="text-xl pb-2" style={{ fontVariationSettings: "'wdth' 125, 'wght' 600" }}>Friday</h1>
-                <p className="pb-6 text-gray-400">This class is coached by <strong><Link to="/cabinet" className="border-b border-gray-700 hover:border-gray-100">Alex</Link></strong> and takes place at <strong>Eight College in front of Pulse.</strong></p>
+                <p className="pb-6 text-gray-400">This class is coached by <strong><Link to="/cabinet" className="border-b border-gray-700 hover:border-gray-100">Alex</Link></strong> and takes place at <strong>RIMAC Room 2.</strong></p>
                 <p className="pb-6 text-gray-400">We focus on improving the quality of your combos, basics, and forms</p>
                 <p className="text-lg">4pm-6pm</p>
               </div>
@@ -96,7 +96,7 @@ const IndexPage = () => {
               <div className="border-solid py-6 pl-6 pr-8" style={{ borderWidth: "1px" }}>
                 <h1 className="text-xl pb-2" style={{ fontVariationSettings: "'wdth' 125, 'wght' 600" }}>Saturday</h1>
                 <p className="pb-6 text-gray-400">This class is coached by <strong><Link to="/cabinet" className="border-b border-gray-700 hover:border-gray-100">TBA</Link></strong></p>
-                <p className="pb-6 text-gray-400">A class focused on competition preparation, takes place at an off-campus Wushu studio.</p>
+                <p className="pb-6 text-gray-400">A class focused on competition preparation and training jumps. This class takes place at an off-campus Wushu studio.</p>
                 <p className="text-lg">6:30pm-10:30pm</p>
               </div>
               <BackgroundImage className="border-solid py-6 pl-6 pr-8" style={{ borderWidth: "1px" }} fluid={data.gd.childImageSharp.fluid}>
@@ -111,7 +111,7 @@ const IndexPage = () => {
               <ul className="list-disc pt-2">
                 <li>Venmo: @Wushu-UCSD</li>
                 <li>Zelle: ucsdwushu@gmail.com</li>
-                <li>Cash: contact a <Link to="/cabinet" className="border-b border-gray-700 hover:border-gray-100">cabinet member</Link> to make an arrangement</li>
+                <li>Cash: talk to a cabinet member via Discord or at practice to make an arrangement.</li>
               </ul>
             </p>
             <h2 className="text-5xl pt-8 pb-4" style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}>Safety guidelines</h2>
