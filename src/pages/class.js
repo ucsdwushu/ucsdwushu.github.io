@@ -48,7 +48,7 @@ const IndexPage = () => {
             <h1 className="text-3xl lg:text-4xl mt-auto lg:pr-64 z-10" style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}>
               Class
             </h1>
-              <h3 className="text-lg lg:text-xl text-gray-500" >Last updated <strong>Jan 8th 2025</strong></h3>
+              <h3 className="text-lg lg:text-xl text-gray-500" >Last updated <strong>Apr 7th 2025</strong></h3>
           </BackgroundImage>
           
           <div className="px-8 lg:px-16 py-16">
