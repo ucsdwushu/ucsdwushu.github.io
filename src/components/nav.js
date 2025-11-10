@@ -59,9 +59,9 @@ const Nav = () => {
           <footer className="mt-8">
             <div>
               <ul className="mb-4 text-gray-300">
-                <li className="mt-1"><a className="navlist2" href="https://linktr.ee/ucsdwushu">LinkTree</a></li>
+                <li className="mt-1"><a className="navlist2" href="https://linktr.ee/wushu_at_ucsd">LinkTree</a></li>
                 <li className="mt-1"><a className="navlist2" href="https://discord.com/invite/F6gSrcG">Discord</a></li>
-                <li className="mt-1"><a className="navlist2" href="https://www.instagram.com/ucsdwushu/">Instagram</a></li>
+                <li className="mt-1"><a className="navlist2" href="https://www.instagram.com/wushu_at_ucsd/">Instagram</a></li>
                 <li className="mt-1"><a className="navlist2">Facebook</a></li>
                 <li className="mt-1"><a className="navlist2" href="https://www.youtube.com/channel/UCJJOaO7Kk3-u-qHxsRbrFuw">YouTube</a></li>
                 <li className="mt-1"><a className="navlist2" href="https://forms.gle/x2QLFT2RTkWfoLcy7">Performance Request Form</a></li>

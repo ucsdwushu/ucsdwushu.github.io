@@ -11,19 +11,19 @@ const IndexPage = () => {
 
   const data = useStaticQuery(graphql`
     query {
-      vivian: file(relativePath: { eq: "images/cabinet/vivian.jpg" }) {
+      vivian: file(relativePath: { eq: "images/cabinet/vivian.JPG" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1.5)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
         }
       }
-      benson: file(relativePath: { eq: "images/cabinet/benson.png" }) {
+      benson: file(relativePath: { eq: "images/cabinet/benson.jpg" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
         }
       }
-      bingbing: file(relativePath: { eq: "images/cabinet/bingbing.png" }) {
+      bingbing: file(relativePath: { eq: "images/cabinet/bingbing.jpg" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
         }
       }
       jerwey: file(relativePath: { eq: "images/cabinet/jerwey.jpg" }) {
@@ -33,7 +33,7 @@ const IndexPage = () => {
       }
       brandon: file(relativePath: { eq: "images/cabinet/brandon.JPG" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1.1)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
         }
       }
       bobby: file(relativePath: { eq: "images/cabinet/bobby.jpg" }) {
@@ -58,7 +58,7 @@ const IndexPage = () => {
       }
         daniel: file(relativePath: { eq: "images/cabinet/daniel.jpg" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
         }
       }
       serena: file(relativePath: { eq: "images/cabinet/serena.jpeg" }) {
@@ -73,7 +73,7 @@ const IndexPage = () => {
       }
               alex: file(relativePath: { eq: "images/cabinet/alex.jpg" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 1.5)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
         }
       }
       all: file(relativePath: { eq: "images/cabinet/troll.JPG" }) {
@@ -98,9 +98,9 @@ const IndexPage = () => {
           </div>
           {/*Left Column*/}
           <Member
-            title="Vice President"
+            title="vice president"
             name="vivian yu"
-            desc="vivian (虞薇) is a 4th year feeble scholar in ERC. as vice president her duties include collecting swords (currently 6 in her possession at the time of writing), trafficking goods from china, and breaking and entering into the CSE building. when she is not present at practice you may find her asleep in class, asleep in a lab meeting, or asleep at work. her favorite wushu forms are jian (straightsword) and wing chun."
+            desc="vivian (虞薇) is a 4th year feeble scholar in ERC. as vice president her duties include collecting swords (currently 6 in her possession at the time of writing), trafficking goods from china, and embezzling resources from the CSE department. when she is not present at practice you may find her asleep in class, asleep in a lab meeting, or asleep at work. her favorite wushu forms are jian (straightsword) and wing chun."
             img={data.vivian.childImageSharp.gatsbyImageData} />
           <Member
             title="Demo Choreographer"
@@ -133,7 +133,7 @@ const IndexPage = () => {
           <Member
             title="President"
             name="Jerwey Guo"
-            desc="Jerwey is a third year Sociology major. Some may say he is going through an existential crisis: an ex-vegetarian, non-STEM pre-med, constantly deciding whether he should land that jump on his two broken knees. However, knowing him, things are probably less serious in the places where he stands—it’s all made up. As club internal, he’ll keep you in the loop about the what, where, and when of all our exciting events, so stick around and keep your eyes peeled for the fun!"
+            desc="Jerwey is a fourth year Sociology major. Some may say he is going through an existential crisis: an ex-vegetarian, non-STEM pre-med, constantly deciding whether he should land that jump on his two broken knees. However, knowing him, things are probably less serious in the places where he stands—it’s all made up. As club internal, he’ll keep you in the loop about the what, where, and when of all our exciting events, so stick around and keep your eyes peeled for the fun!"
             img={data.jerwey.childImageSharp.gatsbyImageData} />
 
           <Member
@@ -150,7 +150,7 @@ const IndexPage = () => {
             <Member
             title="Historian"
             name="Novak Tatarevic"
-            desc="Novak is a second year Anthropology Major with an Archaeology concentration. In his role as historian he is mostly concerned with farming raw material (photos and videos) for the UCSD Wushu content machine. As for martial arts, he has had experience in more traditional Chinese martial arts (Shaolin Kung Fu) and has started practicing contemporary styles since joining the club. Outside of all that, he enjoys a good adventure (aka: lots of walking), nature, cooking, writing, and videogames. "
+            desc="Novak is a third year Anthropology Major with an Archaeology concentration. In his role as historian he is mostly concerned with farming raw material (photos and videos) for the UCSD Wushu content machine. As for martial arts, he has had experience in more traditional Chinese martial arts (Shaolin Kung Fu) and has started practicing contemporary styles since joining the club. Outside of all that, he enjoys a good adventure (aka: lots of walking), nature, cooking, writing, and videogames. "
             img={data.novak.childImageSharp.gatsbyImageData}/>
           {/*<Member
             title="Freeloader"

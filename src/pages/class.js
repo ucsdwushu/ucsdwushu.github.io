@@ -22,7 +22,14 @@ const IndexPage = () => {
           }
         }
       }
-        rimac: file(relativePath: { eq: "images/class/rimac.jpg" }) {
+      rimac: file(relativePath: { eq: "images/class/rimac.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1280) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      rimac2: file(relativePath: { eq: "images/class/rimac2.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1280) {
             ...GatsbyImageSharpFluid
@@ -48,7 +55,7 @@ const IndexPage = () => {
             <h1 className="text-3xl lg:text-4xl mt-auto lg:pr-64 z-10" style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}>
               Class
             </h1>
-            <h3 className="text-lg lg:text-xl text-gray-500" >Last updated <strong>Apr 7th 2025</strong></h3>
+            <h3 className="text-lg lg:text-xl text-gray-500" >Last updated <strong>Nov 10th 2025</strong></h3>
           </BackgroundImage>
 
           <div className="px-8 lg:px-16 py-16">
@@ -62,45 +69,45 @@ const IndexPage = () => {
             </p>
             <h2 className="text-2xl pt-8 pb-4" style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}>Classes</h2>
             {<div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-w-5xl">
-              {/*sunday class*/}
-              <Class
-                day="Sunday"
-                coach="Nathan"
-                location="Triton Track and Field Stadium"
-                desc="A class for everyone"
-                time="1pm-3pm"
-                img={data.track.childImageSharp.fluid}
-              />
               {/*monday class*/}
               <Class
                 day="Monday"
-                coach="Alex"
-                location="Eigth College grass"
-                desc="We focus on improving the quality of your combos, basics, and forms"
-                time="3pm-5pm"
+                coach="Serena"
+                location="RIMAC Room 1"
+                desc="A class for everyone"
+                time="7-8:00pm"
                 img={data.rimac.childImageSharp.fluid}
               />
               {/*wednesday class*/}
               <Class
                 day="Wednesday"
                 coach="Serena"
-                location="Eigth College grass"
+                location="RIMAC Room 1"
+                desc="A class for everyone"
+                time="7-8:00pm"
+                img={data.rimac.childImageSharp.fluid}
+              />
+              {/*Friday class*/}
+              <Class
+                day="Friday"
+                coach="Alex"
+                location="RIMAC Room 3"
                 desc="We focus on improving the quality of your combos, basics, and forms"
-                time="5pm-7pm"
-                img={data.track2.childImageSharp.fluid}
+                time="3:30-5:30pm"
+                img={data.rimac2.childImageSharp.fluid}
               />
               {/*saturday class*/}
               <Class
                 day="Saturday"
-                coach="Jess, Nathan, Alex, Seth"
+                coach="Jess, Nathan"
                 location="an off-campus Wushu studio."
                 desc="A class focused on competition preparation and training jumps."
-                time="6:30pm-10:30pm"
+                time="7:00pm-9:30pm"
                 img={data.gd.childImageSharp.fluid}
               />
             </div>}
             <p className="text-lg max-w-5xl pt-6">
-              All classes are arranged directly with the club.
+              Monday and Wednesday practices are via <a href="https://rec.ucsd.edu/Program/GetProgramDetails?courseId=530044c1-0b1b-47ad-9704-5e68acd2a8b9" className="border-b border-gray-700 hover:border-gray-100">UCSD Recreation</a>. Friday and Saturday classes are arranged directly with the club.
             </p>
             <p className="text-lg max-w-5xl pt-3">
               We accept payment in the following forms:
@@ -110,10 +117,10 @@ const IndexPage = () => {
                 <li>Cash: talk to a cabinet member via Discord or at practice to make an arrangement.</li>
               </ul>
             </p>
-            <h2 className="text-5xl pt-8 pb-4" style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}>Safety guidelines</h2>
+            {/* <h2 className="text-5xl pt-8 pb-4" style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}>Safety guidelines</h2>
             <p className="text-lg max-w-3xl">
               In accordance with UCSD Policy, wearing masks is optional but are still recommended during indoor practices
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
