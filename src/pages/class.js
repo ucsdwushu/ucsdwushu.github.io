@@ -55,7 +55,7 @@ const IndexPage = () => {
             <h1 className="text-3xl lg:text-4xl mt-auto lg:pr-64 z-10" style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}>
               Class
             </h1>
-            <h3 className="text-lg lg:text-xl text-gray-500" >Last updated <strong>Nov 10th 2025</strong></h3>
+            <h3 className="text-lg lg:text-xl text-gray-500" >Last updated <strong>March 4 2026</strong></h3>
           </BackgroundImage>
 
           <div className="px-8 lg:px-16 py-16">
@@ -91,9 +91,9 @@ const IndexPage = () => {
               <Class
                 day="Friday"
                 coach="Alex"
-                location="RIMAC Room 3"
+                location="Price Center Dance Studio"
                 desc="We focus on improving the quality of your combos, basics, and forms"
-                time="3:30-5:30pm"
+                time="4:30-6:30pm"
                 img={data.rimac2.childImageSharp.fluid}
               />
               {/*saturday class*/}
