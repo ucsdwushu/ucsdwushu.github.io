@@ -132,8 +132,8 @@ const IndexPage = () => {
 
           <Member
             title="President"
-            name="Jerwey Guo"
-            desc="Jerwey is a fourth year Sociology major. Some may say he is going through an existential crisis: an ex-vegetarian, non-STEM pre-med, constantly deciding whether he should land that jump on his two broken knees. However, knowing him, things are probably less serious in the places where he stands—it’s all made up. As club internal, he’ll keep you in the loop about the what, where, and when of all our exciting events, so stick around and keep your eyes peeled for the fun!"
+            name="Benson Zhu"
+            desc="Benson is a fourth year Sociology major. Some may say he is going through an existential crisis: an ex-vegetarian, non-STEM pre-med, constantly deciding whether he should land that jump on his two broken knees. However, knowing him, things are probably less serious in the places where he stands—it’s all made up. As club internal, he’ll keep you in the loop about the what, where, and when of all our exciting events, so stick around and keep your eyes peeled for the fun!"
             img={data.jerwey.childImageSharp.gatsbyImageData} />
 
           <Member
