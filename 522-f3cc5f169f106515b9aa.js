@@ -1,0 +1,1 @@
+(self.webpackChunkucsd_wushu_site=self.webpackChunkucsd_wushu_site||[]).push([[522],{8522:function(){}}]);
